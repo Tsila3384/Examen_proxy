@@ -11,7 +11,7 @@ public class ConfigLoader {
     public ConfigLoader() {
         loadConfig();
     }
-// Chargement des configurations
+    
     private void loadConfig() {
         try {
             File file = new File(CONFIG_FILE);
