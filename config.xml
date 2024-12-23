@@ -1,0 +1,10 @@
+<config>
+    <proxyPort>1111</proxyPort>
+    <xamppPort>80</xamppPort>
+    <cacheDurations>
+        <cacheDuration size="1024" duration="10" />
+        <cacheDuration size="10240" duration="30" />
+        <cacheDuration size="102400" duration="60" />
+        <cacheDuration size="max" duration="120" />
+    </cacheDurations>
+</config>
